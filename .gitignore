@@ -1,0 +1,46 @@
+# PowerShell
+*.ps1~
+*.ps1.bin
+
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.jar
+*.class
+*.war
+*.zip
+*.tar
+*.gz
+*.tgz
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Secrets
+*.pem
+*.key
+*.env
+*.config
+*.cert
+
+# Logs
+*.log
+logs/
